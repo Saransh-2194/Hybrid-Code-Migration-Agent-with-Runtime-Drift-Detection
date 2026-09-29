@@ -125,6 +125,7 @@ setup(
 def test_no_dependency_files(tmp_path):
 
     repository = create_repository(tmp_path)
+    a=5
 
     analyzer = DependencyAnalyzer(str(repository))
 
